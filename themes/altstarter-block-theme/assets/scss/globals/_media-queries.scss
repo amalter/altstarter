@@ -1,0 +1,88 @@
+/*
+  * Media Queries
+  */
+
+// tiny
+@mixin bp-tiny {
+	@media (min-width: 24.375rem) {
+		// 390px
+		@content;
+	}
+}
+
+@mixin bp-tiny-max {
+	@media (max-width: 24.3125rem) {
+		// 389px
+		@content;
+	}
+}
+
+// small
+@mixin bp-small {
+	@media (min-width: 37.5rem) {
+		// 600px
+		@content;
+	}
+}
+
+@mixin bp-small-max {
+	@media (max-width: 37.4375rem) {
+		// 599px
+		@content;
+	}
+}
+
+// medium
+@mixin bp-medium {
+	@media (min-width: 60rem) {
+		// 960px
+		@content;
+	}
+}
+
+@mixin bp-medium-max {
+	@media (max-width: 59.9375rem) {
+		// 959px
+		@content;
+	}
+}
+
+// large
+@mixin bp-large {
+	@media (min-width: 80rem) {
+		// 1280px
+		@content;
+	}
+}
+
+@mixin bp-large-max {
+	@media (max-width: 79.9375rem) {
+		// 1279px
+		@content;
+	}
+}
+
+// WP Core Breakpoints (used for the admin bar for example)
+@mixin wp-small {
+	@media (min-width: 600px) {
+		@content;
+	}
+}
+
+@mixin wp-small-max {
+	@media (max-width: 599px) {
+		@content;
+	}
+}
+
+@mixin wp-medium {
+	@media (min-width: 783px) {
+		@content;
+	}
+}
+
+@mixin wp-medium-max {
+	@media (max-width: 782px) {
+		@content;
+	}
+}
