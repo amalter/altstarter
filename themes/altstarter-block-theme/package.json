@@ -29,11 +29,11 @@
   },
   "10up-toolkit": {
     "devURL": "https://aa-starter.lndo.site",
-    "useBlockAssets": true,
+    "useBlockAssets": false,
     "useScriptModules": true,
     "loadBlockSpecificStyles": true,
     "entry": {
-      "editor-style-overrides": "./assets/css/editor-style-overrides.css",
+      "editor-style-overrides": "./assets/scss/editor-style-overrides.scss",
       "frontend": "./assets/js/frontend.js",
       "block-extensions": "./assets/js/block-extensions.js"
     },
