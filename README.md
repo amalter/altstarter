@@ -6,8 +6,8 @@ It contains a bare bones theme and must use plugin for you to base your developm
 
 ## Requirements
 
-- Node >= 16
-- NPM >= 7
+- Node >= 20
+- NPM >= 10
 
 ## How to Use
 
